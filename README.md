@@ -6,7 +6,7 @@
 ***
 # Практика 2
 ***
-Для анализа я выбрал сайт www.instagram.com
+Для анализа я выбрал сайт ru-forum.com
 ***
 Чтобы узнать ip сайта я открыл консоль и ввел команды ping и nslookup:
 
@@ -14,7 +14,41 @@
 
 И вот что получилось:
 
-<img width="673" alt="Снимок экрана 2020-10-05 205537" src="https://user-images.githubusercontent.com/70718269/95114835-36e84500-074d-11eb-9d9c-97edc5583dce.png">
+<img width="660" alt="практика 2 пинг" src="https://user-images.githubusercontent.com/70718269/95436377-6f11a280-095c-11eb-98ca-d1c373f58d61.png">
 
-Отсюда можно узнать, что ip сайта 31.13.72.174
+Отсюда можно узнать, что ip сайта 91.194.2.84
 Затем я использовал команды утилиты nslookup: -query=mx, -query=soa и -query=nx
+
+<img width="672" alt="mx и soa" src="https://user-images.githubusercontent.com/70718269/95437539-c3695200-095d-11eb-83d6-3e81b644e133.png">
+<img width="254" alt="nx" src="https://user-images.githubusercontent.com/70718269/95452396-dbe36780-0971-11eb-8d50-320a7ba126fd.png">
+Команда nslookup позволяет узнать ip сайта, mx  показывает почтовые сервера для домена, soa показывает cервер с эталонной информацией о домене
+
+Далее для просмотра всех доступных записей DNS я ввел -type=any
+<img width="302" alt="-type=any" src="https://user-images.githubusercontent.com/70718269/95972713-741e9800-0e1b-11eb-8c94-bedbd1bd7302.png">
+
+Далее для анализа трафика я использовал фильтр 'ip.src==(ip сайта)' в wireshark
+<img width="952" alt="ip src" src="https://user-images.githubusercontent.com/70718269/95974038-13905a80-0e1d-11eb-9762-bbbc767bf489.png">
+
+Потом я ввел фильтр ip.dst, который отвечает за трафик отправленный на ip
+<img width="953" alt="ip dsp" src="https://user-images.githubusercontent.com/70718269/95974576-d5e00180-0e1d-11eb-917b-f5abd21e0152.png">
+
+Затем ip.addr, который отвечает за фильрацию трафика, в котором упоминается этот ip
+<img width="955" alt="ip addr" src="https://user-images.githubusercontent.com/70718269/95974986-4a1aa500-0e1e-11eb-9463-8ac8fc14a0d2.png">
+
+Я использовал фильтр arp.src.hw_mac, который используется для фильтрации по ARP протокола по mac - адресу
+<img width="944" alt="ь" src="https://user-images.githubusercontent.com/70718269/95979978-29098280-0e25-11eb-9b44-5f2644a76e32.png">
+
+Далее я использовал фильтры eth.dst: фильтр трафика по mac - адресу получателя,eth.src: фильтр трафика по mac - адресу отправителя 
+<img width="950" alt="ь2" src="https://user-images.githubusercontent.com/70718269/95980302-a1704380-0e25-11eb-8d8d-fb2985798716.png">
+<img width="952" alt="ь3" src="https://user-images.githubusercontent.com/70718269/95980347-b4831380-0e25-11eb-97cc-005bd9b6f6ab.png">
+***
+
+
+
+
+
+
+
+
+
+
