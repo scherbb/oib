@@ -49,38 +49,51 @@
 ![попугй](https://user-images.githubusercontent.com/70718269/98211368-fe59a800-1f52-11eb-940c-5055cd148933.jpg)
 
 Перекинул ее на комп и открыл свойства
+
 <img width="280" alt="спвойства 1" src="https://user-images.githubusercontent.com/70718269/98211824-b25b3300-1f53-11eb-92e7-1b7e58fda8f9.png">
 <img width="280" alt="свойства 2" src="https://user-images.githubusercontent.com/70718269/98211835-b71fe700-1f53-11eb-836e-fd5e767fa645.png">
-Вроде все на месте
 
+Вроде все на месте
+***
 Для анализа зарубежного информационного ресурса я выбрал сайт asos.com
+
 <img width="461" alt="Снимок экрана 2020-11-04 131703" src="https://user-images.githubusercontent.com/70718269/98212183-45946880-1f54-11eb-8258-cdfdb8e24c2f.png">
 
 С гуглом у меня выдавало слишком много запросов, поэтому искал информациб тоько в bing и duckduckgo
+
 <img width="727" alt="Снимок экрана 2020-11-04 133307" src="https://user-images.githubusercontent.com/70718269/98213243-cf910100-1f55-11eb-8f41-cb7b3c4bbd78.png">
+
 <img width="134" alt="Снимок экрана 2020-11-04 133734" src="https://user-images.githubusercontent.com/70718269/98213313-efc0c000-1f55-11eb-9943-8e3503449cf0.png">
 
 Я взял первый попавшийся pdf файл и посмотрел методанные
+
 <img width="725" alt="Снимок экрана 2020-11-04 133637" src="https://user-images.githubusercontent.com/70718269/98213598-5e058280-1f56-11eb-88bf-815a11d660b3.png">
 
 Далее CCleaner 
+
 <img width="757" alt="Снимок экрана 2020-11-05 012944" src="https://user-images.githubusercontent.com/70718269/98214077-16cbc180-1f57-11eb-9678-a45790139752.png">
 
 Я нашел одинакове файлы и удалил
 <img width="749" alt="Снимок экрана 2020-11-05 100947" src="https://user-images.githubusercontent.com/70718269/98214487-9eb1cb80-1f57-11eb-93e8-94fd2a334bbd.png">
+
 <img width="499" alt="Снимок экрана 2020-11-05 102558" src="https://user-images.githubusercontent.com/70718269/98214508-a40f1600-1f57-11eb-92a0-9d19efc405f2.png">
 
 Чтобы попробовать восстановить удаленные файлы я взял какую то флешку. На ней оказалась куча фоток, которые ,наверное, можно было удалять. 
+
 <img width="482" alt="Снимок экрана 2020-11-04 115406" src="https://user-images.githubusercontent.com/70718269/98217343-70ce8600-1f5b-11eb-8055-33e4c4ceedb7.png">
 
 Чтобы не портить файлы и отношения с родителями я создал: текстовик, документ, и скопировал одну фотку.
+
 <img width="768" alt="Снимок экрана 2020-11-04 114805" src="https://user-images.githubusercontent.com/70718269/98217606-c86cf180-1f5b-11eb-9b52-04bb8a2dee42.png">
 
 Затем я их удалил. Отсканировал флешку в рстудии и нашел даже больше удаленных файлов чем ожидал
+
 <img width="956" alt="Снимок экрана 2020-11-04 120139" src="https://user-images.githubusercontent.com/70718269/98218149-7a0c2280-1f5c-11eb-9c82-7cade6a1ec83.png">
+
 <img width="478" alt="Снимок экрана 2020-11-04 120630" src="https://user-images.githubusercontent.com/70718269/98218270-a162ef80-1f5c-11eb-9677-2038a05e28db.png">
 
 Но потому, что почти все удаленные файлы весят больше чем 256кб, я смог восстановить только какие то фрагменты.
+
 <img width="598" alt="Снимок экрана 2020-11-04 122009" src="https://user-images.githubusercontent.com/70718269/98288009-3f83a380-1fb7-11eb-9ff0-7c7822d41681.png">
 
 Вот что мне удалось восстановить:
