@@ -42,8 +42,11 @@
 <img width="950" alt="ь2" src="https://user-images.githubusercontent.com/70718269/95980302-a1704380-0e25-11eb-8d8d-fb2985798716.png">
 <img width="952" alt="ь3" src="https://user-images.githubusercontent.com/70718269/95980347-b4831380-0e25-11eb-97cc-005bd9b6f6ab.png">
 ***
-
-
+***
+# Практика 3
+***
+Чтобы посмотреть методанные я взял фотку из своего телефона
+![попугй](https://user-images.githubusercontent.com/70718269/98211368-fe59a800-1f52-11eb-940c-5055cd148933.jpg)
 
 
 
