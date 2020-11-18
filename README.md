@@ -102,3 +102,74 @@
 Фотку я смог увидеть только в предпросмотре :/
 <img width="334" alt="Снимок экрана 2020-11-04 122421" src="https://user-images.githubusercontent.com/70718269/98289190-e1f05680-1fb8-11eb-9ea8-51b906523811.png">
 
+***
+***
+#4 практика 
+***
+Шифрование дериктории с помощью EFS:
+Я создал папку на диске C и засунул туда текстовик, зашифровал папку и попытался открыть с другого пользователя
+
+![L1b-hD6rwDs](https://user-images.githubusercontent.com/70718269/99520037-ac2d7380-29a3-11eb-9585-e5487d8f0526.jpg)
+
+![NBi9MzCBfks](https://user-images.githubusercontent.com/70718269/99520738-894f8f00-29a4-11eb-9b46-c2dd31988fbe.jpg)
+***
+Экспорт сертификата:
+Чтобы получить доступ к документу с другого пользователя я экспортировал ключ на флешку
+
+![cicApTXYM5s](https://user-images.githubusercontent.com/70718269/99522285-7e95f980-29a6-11eb-8cee-b7e2f0e9d0be.jpg)
+
+![sV3BsLN4Zvc](https://user-images.githubusercontent.com/70718269/99522745-13005c00-29a7-11eb-9e2f-2d51a4264148.jpg)
+
+![k_tuwuajTPM](https://user-images.githubusercontent.com/70718269/99522197-658d4880-29a6-11eb-97e7-fd7216470576.jpg)
+
+успешно
+***
+cipher:
+я снова создал текстовик на флешке,
+
+![-GZ8HnuqfpE](https://user-images.githubusercontent.com/70718269/99523073-91f59480-29a7-11eb-98f2-fc0c2fc21ba1.jpg)
+
+открыл консоль и зашифровал файл
+
+![gDM-h5mTAJ0](https://user-images.githubusercontent.com/70718269/99523861-b1d98800-29a8-11eb-8fba-ee9a0ba49af3.jpg)
+
+затем создал резервную копию сертификата
+
+![JILq--FiY-Q](https://user-images.githubusercontent.com/70718269/99523399-147e5400-29a8-11eb-815a-09c244b7cbd8.jpg)
+
+Попробовал открыть с другого пользователя
+
+![AtvFnYHTgdo](https://user-images.githubusercontent.com/70718269/99524026-e51c1700-29a8-11eb-9fa4-fa8e2a4f9ea2.jpg)
+
+успешно
+***
+bitlocker:
+я взял пустую флешку и снова создал текстовик
+
+![s6kuw7rcO4U](https://user-images.githubusercontent.com/70718269/99524273-43e19080-29a9-11eb-8e3f-da3bd10b4a9d.jpg)
+
+включил бит локер
+
+![juvItyGOaYA](https://user-images.githubusercontent.com/70718269/99524369-64114f80-29a9-11eb-86ef-b22b7b9ccd65.jpg)
+
+![bG7CuZJi2Sg](https://user-images.githubusercontent.com/70718269/99524593-b3f01680-29a9-11eb-9844-dc2589cb2541.jpg)
+
+![yZfdqEqrRa4](https://user-images.githubusercontent.com/70718269/99524650-c9fdd700-29a9-11eb-8ca6-e2969edb4ec3.jpg)
+
+вся флешка успешно зашифрована
+
+![Ll0gQHCqV70](https://user-images.githubusercontent.com/70718269/99524788-003b5680-29aa-11eb-8313-92b791aa7ad4.jpg)
+
+На другом ноутбуке-
+<img width="370" alt="Снимок экрана 2020-11-17 223115" src="https://user-images.githubusercontent.com/70718269/99525004-4d1f2d00-29aa-11eb-8300-5a80d7238874.png">
+***
+veracrypt:
+установил, открыл, поводил мышкой, создал контейнер и поместил туда файл с фамилией
+
+<img width="418" alt="Снимок экрана 2020-11-18 113450" src="https://user-images.githubusercontent.com/70718269/99525392-ce76bf80-29aa-11eb-916b-696572cb4a12.png">
+<img width="415" alt="Снимок экрана 2020-11-18 113746" src="https://user-images.githubusercontent.com/70718269/99525438-dc2c4500-29aa-11eb-8e6b-500fcf0c62fb.png">
+<img width="501" alt="Снимок экрана 2020-11-18 114231" src="https://user-images.githubusercontent.com/70718269/99525485-ef3f1500-29aa-11eb-9fbc-4d57a1b60e5e.png">
+<img width="502" alt="Снимок экрана 2020-11-18 114348" src="https://user-images.githubusercontent.com/70718269/99525540-01b94e80-29ab-11eb-8734-7b2daa804492.png">
+<img width="503" alt="Снимок экрана 2020-11-18 114727" src="https://user-images.githubusercontent.com/70718269/99525637-27deee80-29ab-11eb-976b-8f3818178f05.png">
+<img width="506" alt="Снимок экрана 2020-11-18 114817" src="https://user-images.githubusercontent.com/70718269/99525694-3b8a5500-29ab-11eb-8b19-8b65ad22ebf5.png">
+Вроде все получилось, пароль: 123456
