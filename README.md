@@ -173,3 +173,124 @@ veracrypt:
 <img width="503" alt="Снимок экрана 2020-11-18 114727" src="https://user-images.githubusercontent.com/70718269/99525637-27deee80-29ab-11eb-976b-8f3818178f05.png">
 <img width="506" alt="Снимок экрана 2020-11-18 114817" src="https://user-images.githubusercontent.com/70718269/99525694-3b8a5500-29ab-11eb-8b19-8b65ad22ebf5.png">
 Вроде все получилось, пароль: 123456
+***
+***
+#Практика 5
+
+***
+Определение типа hash:
+
+Я установил утилиту и посмотрел хэш пароля
+
+![2](https://user-images.githubusercontent.com/70718269/100166168-1b87f380-2ecd-11eb-9a8f-a83b855f9841.png)
+
+$6 перед солью и самим хэшем показывает тип шифрования и означает, что хэш типа SHA-512
+
+Чтобы в этом убедится, я ввел hashid  –m ‘хэш’
+
+![3](https://user-images.githubusercontent.com/70718269/100166222-3c504900-2ecd-11eb-9ca1-b927196ffbb3.jpg)
+
+
+Создание hash в Linux:
+
+Создание нового пользователя
+
+![4](https://user-images.githubusercontent.com/70718269/100166262-512cdc80-2ecd-11eb-8843-4186dc579bef.png)
+![пользователи](https://user-images.githubusercontent.com/70718269/100167029-22176a80-2ecf-11eb-8db2-cf5f7f5a1661.png)
+
+Изменение хэша пароля нового пользователя
+
+![5](https://user-images.githubusercontent.com/70718269/100166281-5f7af880-2ecd-11eb-90a2-e78f2f5840e4.png)
+
+Я узнал соль и рассчитал хэшированный пароль 
+
+![6](https://user-images.githubusercontent.com/70718269/100166339-8afde300-2ecd-11eb-8095-7cb6199e05ce.png)
+![7](https://user-images.githubusercontent.com/70718269/100166383-ad8ffc00-2ecd-11eb-8159-0a7f27be9364.png)
+
+
+Проверка контрольных сумм:
+
+Скопировал файл /etc/group в домашнюю папку с помощью команды cp и проверил, затем посмотрел и сохранил контрольную сумму
+
+![8](https://user-images.githubusercontent.com/70718269/100166749-7e2dbf00-2ece-11eb-98e6-857bb4ace8a0.png)
+
+Потом удалил первую строку в group
+
+![9](https://user-images.githubusercontent.com/70718269/100166772-8be34480-2ece-11eb-9800-b43eb063a87c.png)
+
+И сравнил их 
+
+![10](https://user-images.githubusercontent.com/70718269/100166788-9ef61480-2ece-11eb-9c3e-aeb6a96a724b.png)
+
+Файл поврежден, все нормально
+
+
+Шифрование данных с помощью пароля:
+
+Я создал файл и зашифровал
+
+![11](https://user-images.githubusercontent.com/70718269/100166891-d82e8480-2ece-11eb-86b7-fddeb0289ea2.png)
+
+Тут вроде все
+
+
+Шифрование с использованием ключей:
+
+Создал ключ для предыдущего файла
+
+![12](https://user-images.githubusercontent.com/70718269/100167055-3a878500-2ecf-11eb-8466-e6d3cbc44145.png)
+![13](https://user-images.githubusercontent.com/70718269/100167082-4a06ce00-2ecf-11eb-8c88-4e70f4f73892.png)
+
+Затем импорт и экспорт
+
+![14](https://user-images.githubusercontent.com/70718269/100167105-5a1ead80-2ecf-11eb-9855-c09bb3f64cfc.png)
+
+Осталось указать доверие
+
+![15](https://user-images.githubusercontent.com/70718269/100167135-6dca1400-2ecf-11eb-8abd-e5096587b2aa.png)
+
+
+Подписи и шифрование:
+
+Я создал текстовик testing и подписал
+
+![16](https://user-images.githubusercontent.com/70718269/100167348-dc0ed680-2ecf-11eb-89ed-9c91ae1dcbf2.png)
+![17](https://user-images.githubusercontent.com/70718269/100167351-dd400380-2ecf-11eb-9da1-031ae3debf82.png)
+![18](https://user-images.githubusercontent.com/70718269/100167424-137d8300-2ed0-11eb-8aac-81691be709ae.png)
+
+
+Письмо:
+
+Установил мозилу, помучался со своей почтой и создал новую
+
+![2 2](https://user-images.githubusercontent.com/70718269/100167724-bb934c00-2ed0-11eb-8810-86d00c0141d6.png)
+
+Вроде создал открытый ключ 
+
+![2 4](https://user-images.githubusercontent.com/70718269/100167871-1b89f280-2ed1-11eb-8d54-7a9c6583d1b9.png)
+![Inked2 6_LI](https://user-images.githubusercontent.com/70718269/100167889-2b093b80-2ed1-11eb-9286-262348f60413.jpg)
+
+Загрузил его
+
+![2 7](https://user-images.githubusercontent.com/70718269/100167929-45431980-2ed1-11eb-9799-f8e7317fc389.png)
+
+Подтвердил на почте
+
+![2 8](https://user-images.githubusercontent.com/70718269/100167961-5a1fad00-2ed1-11eb-86fd-38fd535dbb8f.png)
+
+И вот он
+
+![2 9](https://user-images.githubusercontent.com/70718269/100168002-71f73100-2ed1-11eb-854d-808c2add9e5c.png)
+
+Осталось только отправить письмо
+
+![2 10](https://user-images.githubusercontent.com/70718269/100168199-d6b28b80-2ed1-11eb-96df-5b8d67f33114.png)
+![последний](https://user-images.githubusercontent.com/70718269/100168231-e7fb9800-2ed1-11eb-9cd3-989af667f0c4.png)
+
+
+
+
+
+
+
+
