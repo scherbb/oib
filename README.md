@@ -173,9 +173,10 @@ veracrypt:
 <img width="503" alt="Снимок экрана 2020-11-18 114727" src="https://user-images.githubusercontent.com/70718269/99525637-27deee80-29ab-11eb-976b-8f3818178f05.png">
 <img width="506" alt="Снимок экрана 2020-11-18 114817" src="https://user-images.githubusercontent.com/70718269/99525694-3b8a5500-29ab-11eb-8b19-8b65ad22ebf5.png">
 Вроде все получилось, пароль: 123456
+
 ***
 ***
-#Практика 5
+# Практика 5
 
 ***
 Определение типа hash:
